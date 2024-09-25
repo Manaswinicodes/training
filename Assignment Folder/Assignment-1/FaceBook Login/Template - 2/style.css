@@ -1,0 +1,313 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #e9edf6;
+}
+
+header {
+  height: 100%;
+  width: 100%;
+  padding: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#imagediv img {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  width: 38%;
+  padding: 8px 8px 8px 8px;
+}
+
+#imagediv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+#createAccDiv {
+  margin-bottom: 70px;
+}
+
+.headerInfoDiv {
+  color: aliceblue;
+  size: 200px;
+  background-color: #fff;
+}
+
+p {
+  font-size: 12px;
+}
+
+#headerDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+  width: 50%;
+  gap: 15px;
+  background-color: #fff;
+  flex-direction: flex;
+  margin-left: 70%;
+  border: 2px solid black;
+}
+
+#logindiv {
+  display: flex;
+}
+
+#topdiv {
+  /* border: 2px solid greenyellow; */
+  padding: 10px 10px 10px 10px;
+  border-radius: 0.7rem;
+  background-color: #fff;
+}
+
+#acchead {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 32px;
+  border-radius: 0.7rem;
+  background-color: #fff;
+  font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+}
+
+.headpara {
+  /* margin-top: 10px;
+  margin-bottom: 10px; */
+  font: 1.2rem "Fira Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 0.7rem;
+  font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+}
+
+#accpara {
+  font-size: 13px;
+}
+
+#loginBtn {
+  width: 65px;
+  color: azure;
+  padding: 5px 10px 5px 10px;
+  background-color: #1c4498;
+  border-radius: 0.7rem;
+}
+
+#createAcc {
+  display: flex;
+
+  justify-content: center;
+  align-items: flex-end;
+  /* border: 2px solid black; */
+  border-radius: 0.7rem;
+}
+
+#createAccDiv {
+  margin-left: none;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  /* border: 2px solid red; */
+  width: 40%;
+  margin-left: none;
+  border-radius: 0.7rem;
+  box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.3); /* Add shadow */
+}
+
+#nameDiv {
+  display: flex;
+  height: 45px;
+  width: 100%;
+  background-color: #fff;
+  gap: 10px;
+  border-radius: 0.7rem;
+}
+
+.name {
+  width: 50%;
+  height: 25px;
+  padding: 8px;
+  font-size: 17px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+/* .numPassword {
+  display: flex;
+  height: 25px;
+  width: 100%;
+  background-color: #fff;
+  gap: 10px;
+  border-radius: 0.7rem;
+} */
+
+#numPassword {
+  background-color: #fff;
+}
+
+.numPass {
+  margin-top: 3%;
+  /* width: 95%; */
+  height: 25px;
+  padding: 8px;
+  background-color: #fff;
+  font-size: 17px;
+  width: 96.3%;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.birthday {
+  background-color: #fff;
+}
+
+#inputBoxes {
+  /* border: 2px solid orange; */
+  /* margin-top: 10px; */
+  height: 275px;
+  background-color: #fff;
+  border-radius: 0.3rem;
+  padding: 10px 10px 10px 10px;
+}
+
+.date {
+  margin-top: none;
+  height: 44px;
+  font-size: 2;
+  background-color: #fff;
+}
+
+.gen {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  background-color: #fff;
+  margin-top: 2px;
+}
+
+.gen #male {
+  height: 10px;
+  background-color: #fff;
+}
+
+.gen #female {
+  height: 10px;
+  background-color: #fff;
+}
+
+.gen label {
+  font-size: 19px;
+  background-color: #fff;
+  margin-right: 5px;
+}
+
+#birthpara {
+  background-color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.date {
+  margin-top: none;
+  height: 44px;
+  font-size: 3px;
+  display: flex;
+  background-color: #fff;
+  gap: 15px;
+}
+
+#day {
+  padding: 0px 20px 0px 8px;
+  width: 50%;
+  background-color: #fff;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  font-size: 17px;
+}
+
+#Month {
+  padding: 0px 20px 0px 8px;
+  width: 50%;
+  height: 35px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 17px;
+}
+
+#Year {
+  padding: 0px 20px 0px 8px;
+  width: 50%;
+  background-color: #fff;
+  height: 35px;
+  border-radius: 5px;
+  font-size: 17px;
+  font-style: none;
+  border: 1px solid black;
+}
+
+#birth {
+  margin-top: -9px;
+  height: 40px;
+  background-color: #fff;
+  font-size: 2;
+}
+p {
+  background-color: #fff;
+}
+#discription {
+  margin-bottom: 20px;
+  padding: 0px 10px 0px 10px;
+  background-color: #fff;
+}
+
+a {
+  background-color: #fff;
+}
+#btndiv {
+  display: flex;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+
+#createbtn {
+  padding: 8px 50px 8px 50px;
+  border-radius: 6px;
+  background-color: #fff;
+  border-style: none;
+  background-color: #00a400;
+  color: #fff;
+  font-size: 16px;
+}
+
+#lastpara {
+  display: flex;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#footer {
+  border: 3px solid greenyellow;
+  background-color: #ffffff;
+  height: 100px;
+  gap: 20%;
+}

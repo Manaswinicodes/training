@@ -1,0 +1,83 @@
+<!-- 2. Create a student admission form for the college webpage using HTML form objects. (include a select tag for the chosen stream).
+note: The form should ask all the necessary questions using appropriate form elements -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Studentform</title>
+  </head>
+  <body>
+    <nav class="main_form">
+      <h1>
+        <center>
+          <ul>
+            Admission Form
+          </ul>
+        </center>
+      </h1>
+      <form action="/submit_form" method="post">
+        <label for="name"> First Name</label>
+        <input type="text" />
+        <label for="Middle Name "> Middle Name</label>
+        <input type="text" />
+
+        <label for="last Name"> Last Name</label>
+        <input type="text" />
+      </form>
+      <br />
+      <form class="Birth_date">
+        <label for="Dob">Date of Birth</label>
+        <input type="date" />
+
+        <input type="radio" name="gender" value="Male" />
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="Female" />
+        <label for="female">Female</label>
+      </form>
+      <br />
+      <p>Of which country are you a citizen</p>
+      <select class="citi_ind">
+        <option value="India">India</option>
+        <option value="USA">USA</option>
+        <option value="UK">UK</option>
+        <option value="Australia">Australia</option>
+        <option value="Germany">Germany</option>
+        <option value="Japan">Japan</option>
+        <option value="other">other</option>
+      </select>
+      <br /><br />
+      <form class="contect">
+        <label for="contact">Contact Number</label>
+        <input type="tel" placeholder="(000) 000-000" />
+        <label for="email">Email</label>
+        <input type="email" placeholder="Example@gmail.com" />
+      </form>
+      <br />
+      <div class="addresh">
+        <label for="address">Main-Address</label>
+        <input type="text" />
+        <label for="city">City</label>
+        <input type="text" />
+        <label for="state">State</label>
+        <input type="text" />
+        <label for="country">Country</label>
+        <input type="text" />
+        <label for="pincode">pincode</label>
+        <input type="text" />
+      </div>
+      <br />
+      <br />
+      <form action="branch">
+        <label for="branch">Choose your branch</label>
+        <select name="branch">
+          <option value="Computer Science">Computer Science</option>
+          <option value="Mathematics">Mathematics</option>
+          <option value="Physics">Physics</option>
+          <option value="Chemistry">Chemistry</option>
+        </select>
+        <input type="submit" value="Submit" />
+      </form>
+    </nav>
+  </body>
+</html>

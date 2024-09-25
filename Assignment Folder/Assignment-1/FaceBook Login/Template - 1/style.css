@@ -1,0 +1,118 @@
+#mainBody {
+  display: flex;
+  gap: 5px;
+}
+
+#div1 {
+  border: none;
+  width: 50%;
+}
+#logo {
+  height: 75px;
+  margin-left: 10%;
+  margin-top: 30%;
+}
+
+.para {
+  font-size: 55px;
+  margin-left: 10%;
+  margin-top: 1%;
+}
+
+/* #div2{
+    height: 50%;
+    width: 50%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    place-items: center;
+    gap: 50px;
+} */
+
+#div2 {
+  width: 50%;
+  border: none;
+  display: flex; /* Enable Flexbox */
+  flex-direction: column; /* Arrange children in a column */
+  justify-content: flex-start; /* Center elements vertically */
+  align-items: center; /* Center elements horizontally */
+  padding: 20px;
+}
+
+#content {
+  height: 270px;
+  display: flex; /* Use Flexbox for centering */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 0; /* Take up remaining space */
+  width: 100%;
+}
+
+#login-box {
+  height: 300px;
+  /* height: 100px;
+    width: 100px; */
+  /* border: 2px solid black; */
+  display: flex; /* Use Flexbox for centering */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 0; /* Take up remaining space */
+  width: 50%;
+  /* margin: 5px auto; */
+  margin-top: none;
+  box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.3); /* Add shadow */
+  border: none;
+  border-radius: 5px;
+}
+
+h1 {
+  margin-top: 20%;
+  margin-bottom: 5%;
+}
+#input {
+  height: 10%;
+  width: 70%;
+  gap: 50px;
+  margin-top: 20px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 4px;
+}
+
+#login-button {
+  height: 10%;
+  width: 70%;
+  gap: 50px;
+  margin-top: 20px;
+  color: aliceblue;
+  background-color: #0084ff;
+  border: none;
+  border-radius: 4px;
+}
+
+#a-tag {
+  height: 10%;
+  width: 70%;
+  gap: 50px;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+hr {
+  color: red;
+  z-index: 1;
+  position: relative; /* Add this line */
+}
+
+#createaccount-button {
+  height: 10%;
+  width: 50%;
+  margin: top 20px;
+  color: aliceblue;
+  background-color: #67b868;
+  border: none;
+  border-radius: 4px;
+}

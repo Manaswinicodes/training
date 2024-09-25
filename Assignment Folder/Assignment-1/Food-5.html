@@ -1,0 +1,68 @@
+<!-- Create a webpage that includes:
+a. An ordered list of your favorite foods.
+b. A nested unordered list containing ingredients for each food item.
+c. A form for users to submit their favorite food and its ingredients. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Favorite Foods</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>My Favorite Foods</h1>
+
+      <h2>Ordered List of Favorite Foods</h2>
+      <ol>
+        <li>
+          Pizza
+          <ul>
+            <li>Cheese</li>
+            <li>Tomato Sauce</li>
+            <li>Flour</li>
+            <li>Olive Oil</li>
+          </ul>
+        </li>
+        <li>
+          Burger
+          <ul>
+            <li>Beef Patty</li>
+            <li>Bun</li>
+            <li>Lettuce</li>
+            <li>Tomato</li>
+            <li>Cheese</li>
+          </ul>
+        </li>
+        <li>
+          Pasta
+          <ul>
+            <li>Pasta Noodles</li>
+            <li>Tomato Sauce</li>
+            <li>Garlic</li>
+            <li>Olive Oil</li>
+            <li>Parmesan Cheese</li>
+          </ul>
+        </li>
+      </ol>
+
+      <h2>Submit Your Favorite Food</h2>
+
+      <div class="post">
+        <label for="food">Favorite Food:</label>
+        <input type="text" id="food" name="food" required />
+
+        <label for="ingredients">Ingredients:</label>
+        <textarea
+          id="ingredients"
+          name="ingredients"
+          rows="4"
+          required
+        ></textarea>
+
+        <input type="submit" value="Submit" />
+      </div>
+    </div>
+  </body>
+</html>

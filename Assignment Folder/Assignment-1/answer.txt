@@ -1,0 +1,43 @@
+1.Which of the following elements in HTML5 defines video or movie content?
+
+<video>
+
+2.Which tag is used to create a dropdown in an HTML Form?
+
+<select>
+
+3.How do we write comments in HTML?
+
+<!-- Comment -->
+
+4.Apart from <i> tag which of the following tag is used to render a text in italics?
+
+<em>
+
+5.Which tag allows you to add a row in a table?
+
+<tr>
+
+6.Which of the following is an inline-level HTML element?
+
+<p>
+
+7.What is the purpose of the <head> tag in an HTML document?
+
+The <head> tag contains meta-information about the document such as title, links to CSS, scripts, and other metadata.
+
+8. What is the purpose of the <!DOCTYPE> declaration in an HTML document?
+
+The <!DOCTYPE> declaration specifies the HTML version and helps the browser render the page correctly.
+
+9. Which HTML element is used to define the structure of a table?
+
+The <table> element is used to define a table structure.
+
+10. What is the purpose of the alt attribute in the <img> tag?
+
+The alt attribute provides alternative text for an image if it cannot be displayed. It improves accessibility and SEO.
+
+11. What is the purpose of the <footer> tag in an HTML document?
+
+The <footer> tag defines the footer section of a webpage, typically containing copyright information, links, and other details.
